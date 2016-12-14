@@ -1,0 +1,45 @@
+{
+  "name": "OME Repository Policies",
+  "resources": [
+    {
+      "name": "Python repositories",
+      "path": "python.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Scope",
+            "format": "string"
+          },
+          {
+            "name": "Common Name",
+            "format": "string"
+          },
+          {
+            "name": "Current repo",
+            "format": "string"
+          },
+          {
+            "name": "Proposed repo",
+            "format": "string"
+          },
+          {
+            "name": "PyPi",
+            "format": "string"
+          },
+          {
+            "name": "Packages",
+            "format": "string"
+          },
+          {
+            "name": "Github team",
+            "format": "string"
+          },
+          {
+            "name": "Semver",
+            "format": "boolean"
+          }
+        ]
+      }
+    }
+  ]
+}

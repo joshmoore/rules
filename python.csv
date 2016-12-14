@@ -1,0 +1,34 @@
+Scope,Common Name,Current repo,Proposed repo,PyPi,Packages,Github team,Semver,Build system,"code checker
+ Python","code checker
+Javascript","code checker
+text"
+Core,OMERO.py,openmicroscopy/openmicroscopy,,omero_client,omero,,,,,,
+Core,OMERO.web,openmicroscopy/openmicroscopy,,,omeroweb,,,,,,
+Tool/Public,omego,ome/omego,,omego,omego,devops,,,,,
+Library/Internal,,openmicroscopy/snoopycrimecop,,scc,scc,devops,,,,,
+Library/Internal,,openmicroscopy/yaclifw,,yaclifw,yaclifw,devops,,,,,
+Library/Public,OMERO.marshal,openmicroscopy/omero-marshal omero-annotations? omero-metadata-utilities?,ome/omero-marshal,omero-marshal,omero_marshal,,Yes,,,,
+Library/Public,OMERO.cli duplicate plugin,joshmoore/omero-cli-duplicate,ome/omero-cli-duplicate,omero-cli-duplicate,omero.plugins,,,,,,
+Library/Public,OMERO.metadata (+plugin),,ome/omero-metadata,omero-metadata,omero_metadata ???,,Yes,,,,
+Webapp/Internal,OMERO.weberror,openmicroscopy/weberror,,omero-weberror,omero_weberror,webapps,,,"flake8 
+pycodestyle 
+pep8-naming",,rst-lint
+Webapp/Internal,OMERO.webtest,openmicroscopy/webtest,,omero-webtest,omero_webtest,webapps,,,"flake8 
+pycodestyle 
+pep8-naming",,rst-lint
+Webapp/public?,OMERO.webemdb,openmicroscopy/webemdb,,omero-webemdb,,webapps,,,,,
+Webapp/public?,OMERO.virtualmicroscope,openmicroscopy/virtual-microscope,???,omero-virtual-microscope,,webapps,,,,,
+Webapp/public,OMERO.gallery,ome/omero-gallery,,omero-gallery,omero_gallery,webapps,,,"flake8
+pycodestyle
+pep8-naming",,rst-lint
+Webapp/public,OMERO.figure,ome/omero-figure,,omero-figure,omero_figure,webapps,,grunt,"flake8 
+pycodestyle 
+pep8-naming",jshint,rst-lint
+Webapp/public,OMERO.mapr,ome/omero-mapr,,omero-mapr,mapr,webapps,,,,,
+Webapp/public,OMERO.iviewer,ome/omero-iviewer,,omero-iviewer,omero_iviewer,webapps,,"webpack
+require nodejs 6 
+npm>=3","flake8
+pycodestyle
+pep8-naming",,
+,,,,,,,,,,,
+Other,OMERO.scripts,ome/omero-user-scripts,,,,,,,,,
